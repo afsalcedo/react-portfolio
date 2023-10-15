@@ -1,5 +1,7 @@
 import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
+import Landing from "./scenes/Landing";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 
@@ -10,7 +12,10 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY === 0) setIsTopOfPage(true);
+      if (window.scrollY === 0) {
+        setIsTopOfPage(true);
+        setSelectedPage("home");
+      }
       if (window.scrollY !== 0) setIsTopOfPage(false);
     };
     window.addEventListener("scroll", handleScroll);
@@ -31,6 +36,13 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("home")}
+        >
+          <Landing setSelectedPage={setSelectedPage} />
+        </motion.div>
       </div>
     </div>
   );
