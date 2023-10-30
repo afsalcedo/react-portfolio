@@ -55,9 +55,10 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Explore a selection of my projects where I've applied my data science
+          and software engineering skills to solve complex problems. Each
+          project showcases my ability to utilize various technologies,
+          implement innovative solutions, and deliver valuable insights.
         </p>
       </motion.div>
 
@@ -75,7 +76,7 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            BEAUTIFUL USER INTERFACES
+            INNOVATIVE DATA SOLUTIONS
           </div>
           <Project title="Project 1" subtitle="p1" />
           <Project title="Project 2" subtitle="p2" />
@@ -87,7 +88,7 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            SMOOTH USER EXPERIENCE
+            INTUITIVE USER-CENTRIC DESIGNS
           </div>
         </motion.div>
       </div>

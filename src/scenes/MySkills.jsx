@@ -25,8 +25,10 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            I thrive on challenges that require creative problem-solving and
+            technical expertise. I'm always eager to delve into new datasets,
+            uncover hidden patterns, and contribute to data-driven decision
+            making.
           </p>
         </motion.div>
         <div className="mt-16 md:mt-0">
@@ -70,9 +72,12 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            With a solid background in Data Science and Software Engineering,
+            I've had the opportunity to work on a variety of projects, from
+            developing a web scraper to collect public data to designing machine
+            learning models for predictive analysis. These experiences have
+            enabled me to hone my skills and adapt to different data
+            environments seamlessly.
           </p>
         </motion.div>
         {/* INNOVATIVE */}
@@ -97,10 +102,12 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            Innovation is at the heart of my work. I believe in pushing
+            boundaries and experimenting with new techniques to solve complex
+            problems. From utilizing Natural Language Processing to parse
+            resumes, to developing machine learning models for predictive
+            analysis, I thrive on creating innovative solutions that drive
+            efficiency and produce valuable insights.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -119,16 +126,20 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Adaptability
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            In the dynamic field of data science and software engineering,
+            adaptability is key. I am proficient in a broad range of languages
+            and frameworks, from Python and Java to R, Git, HTML, CSS, PHP,
+            Bash, Ruby, PostgreSQL, ReactJS, Node.js, Oracle SQL, JavaScript,
+            Tableau, SAS, SPSS, Power BI, and C++. This versatility, coupled
+            with my eagerness to learn and embrace new technologies, allows me
+            to adapt to diverse technical environments and deliver efficient
+            solutions even under changing conditions.
           </p>
         </motion.div>
       </div>

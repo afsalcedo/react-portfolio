@@ -50,8 +50,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            A passionate and dedicated individual with a passion for
+            transforming complex data into actionable insights.
           </p>
         </motion.div>
 
