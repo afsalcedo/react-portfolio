@@ -19,6 +19,7 @@ const Contact = () => {
     console.log("~ e", e);
     const isValid = await trigger();
     if (isValid) {
+      e.preventDefault();
       emailjs
         .sendForm(
           "service_b5xtdij",
@@ -150,7 +151,7 @@ const Contact = () => {
               SEND ME A MESSAGE
             </button>
             {error && "Error"}
-            {success && "Success"}
+            <div>{success && "Success!"}</div>
           </form>
         </motion.div>
       </div>

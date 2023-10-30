@@ -4,6 +4,7 @@ import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
 import Projects from "./scenes/Projects";
 import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import LineGradient from "./components/LineGradient";
@@ -78,6 +79,7 @@ function App() {
           <Contact />
         </motion.div>
       </div>
+      <Footer />
     </div>
   );
 }
