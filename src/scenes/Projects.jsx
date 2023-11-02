@@ -82,23 +82,31 @@ const Projects = () => {
           </div>
           <Project
             title="English Premier League Table Prediction"
-            subtitle="p1"
-            link="https://github.com/afsalcedo"
+            subtitle="A predictive model using Machine Learning and Python to forecast the outcome of the English Premier League."
+            link="https://github.com/afsalcedo/Premier-League-Table-Prediction"
           />
           <Project
             title="Email Classification"
-            subtitle="p2"
+            subtitle="A classification model developed in Python to identify spam and legitimate emails using Machine Learning and Natural Language Processing."
             link="https://www.kaggle.com/code/afsalcedo/email-classification"
           />
 
           {/* ROW 2 */}
-          <Project title="Project 3" subtitle="p3" />
-          <Project title="Project 4" subtitle="p4" />
+          <Project
+            title="HR Analytics Dashboard"
+            subtitle="A Power BI dashboard visualizing HR data to get insights into employee office presence and work-from-home likelihood."
+            link="https://github.com/afsalcedo/HR-Data-Analysis-Power-BI-Dashboard"
+          />
+          <Project
+            title="Planar Data Classification"
+            subtitle="A Neural Network model for accurate planar data classification."
+            link="https://github.com/afsalcedo/Planar-Data-Classification"
+          />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            INTUITIVE USER-CENTRIC DESIGNS
+            FUELING DATA-DRIVEN EVOLUTION FOR TANGIBLE OUTCOMES.
           </div>
         </motion.div>
       </div>
