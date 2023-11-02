@@ -15,18 +15,20 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, subtitle }) => {
+const Project = ({ title, subtitle, link }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
-      <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">{subtitle}</p>
-      </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <a href={link} target="_blank" rel="noreferrer">
+        <div className={overlayStyles}>
+          <p className="text-2xl font-playfair">{title}</p>
+          <p className="mt-7">{subtitle}</p>
+        </div>
+        <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      </a>
     </motion.div>
   );
 };
@@ -78,8 +80,16 @@ const Projects = () => {
           >
             INNOVATIVE DATA SOLUTIONS
           </div>
-          <Project title="Project 1" subtitle="p1" />
-          <Project title="Project 2" subtitle="p2" />
+          <Project
+            title="English Premier League Table Prediction"
+            subtitle="p1"
+            link="https://github.com/afsalcedo"
+          />
+          <Project
+            title="Email Classification"
+            subtitle="p2"
+            link="https://www.kaggle.com/code/afsalcedo/email-classification"
+          />
 
           {/* ROW 2 */}
           <Project title="Project 3" subtitle="p3" />
