@@ -57,10 +57,9 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Explore a selection of my projects where I've applied my data science
-          and software engineering skills to solve complex problems. Each
-          project showcases my ability to utilize various technologies,
-          implement innovative solutions, and deliver valuable insights.
+          Explore my projects to witness the application of my skills to complex
+          problems. Each one demonstrates innovative use of technologies to
+          deliver valuable insights.
         </p>
       </motion.div>
 

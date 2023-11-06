@@ -50,8 +50,8 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            A passionate and dedicated individual with a passion for
-            transforming complex data into actionable insights.
+            Dedicated to transforming complex data into valuable insights, I
+            thrive on creative problem-solving and technical challenges.
           </p>
         </motion.div>
 
